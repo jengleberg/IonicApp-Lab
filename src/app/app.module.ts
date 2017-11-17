@@ -9,7 +9,6 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { FilmsPage } from '../pages/films/films';
-// import { FilmDetailsPage } from '../pages/film-details/film-details';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -26,7 +25,6 @@ import { ApiProvider } from '../providers/api/api';
     ContactPage,
     HomePage,
     FilmsPage,
-    // FilmDetailsPage,
     TabsPage
   ],
   imports: [
@@ -42,7 +40,6 @@ import { ApiProvider } from '../providers/api/api';
     ContactPage,
     HomePage,
     FilmsPage,
-    // FilmDetailsPage,
     TabsPage
   ],
   providers: [
